@@ -4,6 +4,7 @@ import Link from 'next/link';
 import NavbarLink from './navbar-link';
 import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from './navigation-menu';
 import { navigationMenuTriggerStyle } from './navigation-menu-utils';
+import ThemeToggle from './theme-toggle';
 
 export default function Navbar() {
   return (
@@ -29,7 +30,7 @@ export default function Navbar() {
             <NavigationMenuLink active={false} href="#" className={navigationMenuTriggerStyle()}>
               <RssIcon size={24} />
             </NavigationMenuLink>
-            {/* Dark mode switcher */}
+            <ThemeToggle />
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>

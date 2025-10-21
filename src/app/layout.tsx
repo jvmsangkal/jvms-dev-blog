@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 
 // TODO: dynamically generate metadata based on the page
 export const metadata: Metadata = {
-  title: 'JV Sangkals\'s Personal Site',
-  description: 'JV Sangkals\'s Personal Site',
+  title: 'JV Sangkal\'s Personal Site',
+  description: 'JV Sangkal\'s Personal Site',
   icons: {
     icon: '/favicon.svg',
   },
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
       >
         <ThemeProvider
           attribute="class"
@@ -41,7 +41,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="min-h-screen flex flex-col">
+          <main className="flex flex-col">
             {children}
           </main>
           <Footer />
