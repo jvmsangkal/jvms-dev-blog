@@ -38,7 +38,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## TODOS
 
 - [x] Setup linter / formatter + husky
+- [x] Deploy to vercel
+- [ ] Tailwind lint
 - [ ] SEO
 - [ ] Analytics
-- [x] Deploy to vercel
 - [ ] Setup MDX
+- [ ] Upgrade to next 16
+- [ ] Use react router
+- [ ] Migrate to OX lint + Formatter
+- [ ] Unit test with vitest
+- [ ] Migrate to bun
