@@ -44,8 +44,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - [ ] Analytics
 - [ ] Setup MDX
 - [x] Upgrade to next 16
-- [ ] Use react router
 - [x] Migrate to OX lint + Formatter
 - [ ] Unit test with vitest
-- [ ] Migrate to bun
+- [ ] Migrate to bun (at least for local)
 - [x] Upgrade Shadcn
+- [ ] https://vercel.com/templates/next.js/portfolio-starter-kit
+
+## MDX References
+
+- https://www.youtube.com/watch?v=34bRv6cQezo
+- https://github.com/gaearon/overreacted.io/blob/main/app/%5Bslug%5D/page.tsx
+- https://github.com/ipikuka/next-mdx-remote-client?tab=readme-ov-file

@@ -15,7 +15,14 @@ export default function Navbar() {
   return (
     <header className="w-full flex items-center justify-between px-4 py-2">
       <Link href="/">
-        <Image className="dark:invert" src="/logo.svg" alt="Logo" width={100} height={100} />
+        <Image
+          className="dark:invert"
+          src="/logo.svg"
+          loading="eager"
+          alt="Logo"
+          width={100}
+          height={100}
+        />
       </Link>
       <NavigationMenu>
         <NavigationMenuList>
